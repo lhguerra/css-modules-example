@@ -1,0 +1,11 @@
+.listBase {
+  border: 5px solid black;
+  font-size: 30px;
+}
+
+.myList {
+  composes: listBase;
+  composes: base from './base.css';
+  color: red;
+  background-color: yellow;
+}
