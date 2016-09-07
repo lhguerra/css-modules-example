@@ -1,0 +1,10 @@
+{
+  "name": "my-custom-styleguide",
+  "version": "1.0.0",
+  "description": "My custom styleguide package.",
+  "main": "main.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
+}
