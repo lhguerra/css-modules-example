@@ -1,10 +1,11 @@
+import { link } from './link.js'
 import styles from './list.css'
 
 let list = `
   <ul class='${styles.myList}'>
-    <li>I love CSS</li>
-    <li>You love CSS</li>
-    <li>We love CSS</li>
+    <li>I love CSS ${link}</li>
+    <li>You love CSS ${link}</li>
+    <li>We love CSS ${link}</li>
   </ul>
 `
 

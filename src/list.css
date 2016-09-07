@@ -1,4 +1,5 @@
 .myList {
+  composes: roundBox from 'my-custom-styleguide';
   color: white;
   background-color: blue;
 }
