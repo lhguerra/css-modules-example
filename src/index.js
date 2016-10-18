@@ -1,7 +1,5 @@
-import './list.js'
-import './otherList.js'
-import styles from './main.css'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './containers/App.js'
 
-let button = `<a class="${styles.button}">Click</a>`
-
-document.write(button)
+ReactDOM.render(<App />, document.getElementById('react'))
