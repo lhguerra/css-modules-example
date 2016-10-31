@@ -1,15 +1,17 @@
 import React, { Component } from 'react'
+import Link from '../components/Link/Link'
 
 export default class App extends Component {
   render () {
     return (
-      <html>
-        <body>
-          <h1>
-            React is working :B
-          </h1>
-        </body>
-      </html>
+      <div>
+        <h1>
+          React is working :B
+        </h1>
+        <Link>
+          Try out now!
+        </Link>
+      </div>
     )
   }
 }
