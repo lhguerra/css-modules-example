@@ -8,6 +8,7 @@ Example of a simple use of CSS modules in a project.
 
 ## Install dependencies
 `npm install webpack -g`
+
 `npm install`
 
 
