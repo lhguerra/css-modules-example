@@ -17,3 +17,8 @@ Example of a simple use of CSS modules in a project.
 
 
 ## Enjoy!
+
+### Pay attention to the branches:
+* `introduction`: the basics to make it work
+* `continuation`: showing how to reuse styles
+* `react`: little example using React
